@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/:path*",
-      "destination": "/soft/src/login/login.js"
+      "destination": "/src/login/login.js"
     }
   ]
 }
