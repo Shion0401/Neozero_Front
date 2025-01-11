@@ -1,9 +1,8 @@
 {
-    "rewrites": [
-      {
-        "source": "/(.*)",
-        "destination": "/soft/index.js"
-      }
-    ]
-  }
-  
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "destination": "/soft/src/login/login.js"
+    }
+  ]
+}
